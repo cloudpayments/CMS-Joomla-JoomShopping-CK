@@ -2,7 +2,7 @@
 
 Модуль позволяет интегрировать онлайн-кассу [CloudKassir](https://cloudkassir.ru/) в интернет-магазин на платформе Joomla - JoomShopping.
 Для корректной работы модуля необходима регистрация в сервисе.
-Порядок регистрации описан в [документации CloudKassir](https://cloudkassir.ru/#subscribe).
+Порядок подключения описан в [документации CloudKassir](https://developers.cloudkassir.ru/#poryadok-podklyucheniya).
 
 ## Возможности:
 
