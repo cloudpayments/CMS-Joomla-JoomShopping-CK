@@ -62,11 +62,12 @@
   define("NOT_VAT", "Без НДС");
 
   define("DELIVERY_VAT0", "Без НДС");
-  define("DELIVERY_VAT1", "НДС 18%");
+  define("DELIVERY_VAT1", "НДС 0%");
   define("DELIVERY_VAT2", "НДС 10%");
-  define("DELIVERY_VAT3", "НДС 0%");
-  define("DELIVERY_VAT4", "расчетный НДС 10/110");
-  define("DELIVERY_VAT5", "расчетный НДС 18/118");
+  define("DELIVERY_VAT3", "НДС 12%");
+  define("DELIVERY_VAT4", "НДС 20%");
+  define("DELIVERY_VAT5", "расчетный НДС 10/110");
+  define("DELIVERY_VAT6", "расчетный НДС 20/120");
 
 
   define("STATUS_GROUP", "Статусы");
@@ -103,9 +104,9 @@
   define("SALE_HPS_CLOUDPAYMENT_NDS_DESC", "НДС для заказа");
 
   define("SALE_HPS_NDS_0", "Без НДС");
-  define("SALE_HPS_NDS_1", "НДС 10%");
-  define("SALE_HPS_NDS_2", "НДС 18%");
-  define("SALE_HPS_NDS_3", "НДС 20%");
-  define("SALE_HPS_NDS_4", "расчетный НДС 10/110");
-  define("SALE_HPS_NDS_5", "расчетный НДС 18/118");
+  define("SALE_HPS_NDS_1", "НДС 0%");
+  define("SALE_HPS_NDS_2", "НДС 10%");
+  define("SALE_HPS_NDS_3", "НДС 12%");
+  define("SALE_HPS_NDS_4", "НДС 20%");
+  define("SALE_HPS_NDS_5", "расчетный НДС 10/110");
   define("SALE_HPS_NDS_6", "расчетный НДС 20/120");

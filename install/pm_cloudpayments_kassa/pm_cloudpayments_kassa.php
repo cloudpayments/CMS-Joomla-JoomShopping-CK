@@ -28,7 +28,7 @@
     {
       $lang = JFactory::getLanguage();
       $lang_tag = $lang->getTag();
-      $lang_dir = JPATH_ROOT . '/components/com_jshopping/payments/pm_cloudpayments_cp/lang/';
+      $lang_dir = JPATH_ROOT . '/components/com_jshopping/payments/pm_cloudpayments_kassa/lang/';
       $lang_file = $lang_dir . $lang_tag . '.php';
       if (file_exists($lang_file))
         require_once $lang_file;

@@ -61,11 +61,12 @@ defined('_JEXEC') or die();
   define("NOT_VAT", "Without VAT");
 
   define("DELIVERY_VAT0", "Without VAT");
-  define("DELIVERY_VAT1", "VAT 18%");
-  define("DELIVERY_VAT2", "10% VAT");
-  define("DELIVERY_VAT3", "VAT 0%");
-  define("DELIVERY_VAT4", "settlement VAT 10/110");
-  define("DELIVERY_VAT5", "settlement VAT 18/118");
+  define("DELIVERY_VAT1", "VAT 0%");
+  define("DELIVERY_VAT2", "VAT 10%");
+  define("DELIVERY_VAT3", "VAT 12%");
+  define("DELIVERY_VAT4", "VAT 20%");
+  define("DELIVERY_VAT5", "settlement VAT 10/110");
+  define("DELIVERY_VAT6", "settlement VAT 20/120");
 
 
   define("STATUS_GROUP", "Statuses");
@@ -102,8 +103,9 @@ defined('_JEXEC') or die();
   define("SALE_HPS_CLOUDPAYMENT_NDS_DELIVERY", "VAT for delivery");
 
   define("SALE_HPS_NDS_0", "Without VAT");
-  define("SALE_HPS_NDS_1", "18% VAT");
-  define("SALE_HPS_NDS_2", "VAT 10%");
-  define("SALE_HPS_NDS_3", "0% VAT");
-  define("SALE_HPS_NDS_4", "settlement VAT 10/110");
-  define("SALE_HPS_NDS_5", "calculated VAT 18/118");
+  define("SALE_HPS_NDS_1", "0% VAT");
+  define("SALE_HPS_NDS_2", "10% VAT");
+  define("SALE_HPS_NDS_3", "12% VAT");
+  define("SALE_HPS_NDS_4", "20% VAT");
+  define("SALE_HPS_NDS_5", "calculated VAT 10/110");
+  define("SALE_HPS_NDS_6", "calculated VAT 20/120");

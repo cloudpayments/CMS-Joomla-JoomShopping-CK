@@ -1,1 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><extension version="2.5" type="plugin" group="jshoppingadmin" method="upgrade">    <name>PLG_jshoppingadmin_cloudpayments_kassa</name>    <author></author>    <creationDate></creationDate>    <copyright></copyright>    <license>Информация о лицензии</license>    <authorEmail></authorEmail>    <authorUrl></authorUrl>    <version>1.0.0</version>    <description>PLG_jshoppingadmin_cloudpayments_kassa_XML_DESCRIPTION</description>    <scriptfile>install.php</scriptfile>     <files>        <filename plugin="cloudpayments_kassa">cloudpayments_kassa.php</filename>        <filename>index.html</filename>        <folder>install</folder>    </files>    <config>        <fields name="params">            <fieldset name="basic">                <field name="revised" type="text"                       description="PLG_jshoppingadmin_cloudpayments_kassa_FIELD_REVISED_DESC"                       label="PLG_jshoppingadmin_cloudpayments_kassa_FIELD_REVISED_LABEL"                       filter="string"                       default=""                       size="50"                />            </fieldset>        </fields>    </config></extension>
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="jshoppingadmin" method="upgrade">
+    <name>PLG_jshoppingadmin_cloudpayments_kassa</name>
+    <author>CloudPayments</author>
+    <creationDate></creationDate>
+    <copyright></copyright>
+    <license>Информация о лицензии</license>
+    <authorEmail></authorEmail>
+    <authorUrl></authorUrl>
+    <version>1.0.1</version>
+    <description>PLG_jshoppingadmin_cloudpayments_kassa_XML_DESCRIPTION</description>
+    <scriptfile>install.php</scriptfile> 
+    <files>
+        <filename plugin="cloudpayments_kassa">cloudpayments_kassa.php</filename>
+        <filename>index.html</filename>
+        <folder>install</folder>
+    </files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="revised" type="text"
+                       description="PLG_jshoppingadmin_cloudpayments_kassa_FIELD_REVISED_DESC"
+                       label="PLG_jshoppingadmin_cloudpayments_kassa_FIELD_REVISED_LABEL"
+                       filter="string"
+                       default=""
+                       size="50"
+                />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

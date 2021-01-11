@@ -17,11 +17,11 @@
   $nds_list[] = JHTML::_('select.option', '6',SALE_HPS_NDS_5, 'id', 'name');*/
  // $nds_list[] =    JHTML::_('select.option', $value = '1', "jjj", 'value', 'text', $disable=true );
   $nds_list[] = JHTML::_('select.option', '',SALE_HPS_NDS_0, 'value', 'text');
-  $nds_list[] = JHTML::_('select.option', '10',SALE_HPS_NDS_1, 'value', 'text');
-  $nds_list[] = JHTML::_('select.option', '18',SALE_HPS_NDS_2, 'value', 'text');
-  $nds_list[] = JHTML::_('select.option', '20',SALE_HPS_NDS_3, 'value', 'text');
-  $nds_list[] = JHTML::_('select.option', '110',SALE_HPS_NDS_4, 'value', 'text');
-  $nds_list[] = JHTML::_('select.option', '118',SALE_HPS_NDS_5, 'value', 'text');
+  $nds_list[] = JHTML::_('select.option', '0',SALE_HPS_NDS_1, 'value', 'text');
+  $nds_list[] = JHTML::_('select.option', '10',SALE_HPS_NDS_2, 'value', 'text');
+  $nds_list[] = JHTML::_('select.option', '12',SALE_HPS_NDS_3, 'value', 'text');
+  $nds_list[] = JHTML::_('select.option', '20',SALE_HPS_NDS_4, 'value', 'text');
+  $nds_list[] = JHTML::_('select.option', '110',SALE_HPS_NDS_5, 'value', 'text');
   $nds_list[] = JHTML::_('select.option', '120',SALE_HPS_NDS_6, 'value', 'text');
 
 
